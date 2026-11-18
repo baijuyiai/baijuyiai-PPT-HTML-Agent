@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML PPT OS 管理后台</title>
+    <meta name="robots" content="noindex" />
+    <!-- 与 apps/web/index.html 同一段：默认深色，但尊重用户选过的浅色。见那边的注释 -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('lumen-theme');
+          document.documentElement.setAttribute('data-theme', saved === 'light' ? 'light' : 'dark');
+        } catch (e) {
+          /* 隐私模式下 localStorage 会抛，兜住即可——默认深色已经写在标签上 */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

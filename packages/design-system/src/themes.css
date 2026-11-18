@@ -1,0 +1,318 @@
+/*
+ * Lumen Deck 主题变量。来源：PRD §3.3 / §3.5。
+ * 浅色为 :root 默认，深色由 html[data-theme="dark"] 覆盖。
+ *
+ * **选择器带 `html` 前缀是有意的，不是啰嗦。** 裸写 `[data-theme="dark"]` 会命中
+ * **任何**带这个属性的元素——旧链路幻灯片根 div 就挂着一个（`Slide.tsx` 把
+ * `ctx.theme` 写上去），于是界面主题的深色变量会整片渗进幻灯片。带上 `html`
+ * 之后只认根元素，幻灯片只吃它自己那份内联 cssVars。
+ *
+ * 深色模式禁止纯黑：最外层画布 --canvas 是最深的一档，往上一层比一层亮，
+ * 卡片(--surface-0)要比外壳(--shell-bg)亮才浮得起来。
+ */
+
+:root {
+  color-scheme: light;
+
+  /*
+   * 主色 · 荧光绿。
+   *
+   * **亮绿不能一色走天下。** 它太亮（白底上对比度只有 1.6:1），当文字、当描边、
+   * 当按钮上的字全都读不出来。所以拆成两个角色：
+   *
+   * - `--brand-500` **只做填充**——按钮底、色块、进度条、指示条。面积够大，
+   *   亮反而成了优点。
+   * - `--brand-600` **只做文字与描边**——白底上的链接、输入框聚焦边、选中态描边。
+   *   它是这抹绿压暗之后的橄榄色（对比度 7.6:1），与 500 是同一族，
+   *   并排看仍是「一个颜色」，只是深了一档。
+   * - `--brand-fg` 压在 `--brand-500` 上的字色。深色，因为底色亮。
+   *
+   * 深色主题下 600 反过来变**浅**：那时背景是近黑，文字得往亮里走才读得清。
+   * 所以 600 的语义是「当前背景下读得清的那一档品牌色」，不是「更深的 500」。
+   */
+  --brand-500: #BDEC3D;
+  --brand-600: #4C5A0A;
+  --brand-100: #F2FAD4;
+  --brand-fg: #161D00;
+
+  /* 辅助色 · 橙（单屏面积 <= 10%） */
+  --accent-500: #FF7A1A;
+  --accent-100: #FFF0E6;
+
+  /*
+   * 主行动按钮。底就是主色，字取 `--brand-fg`——
+   * **不能用白字**：白压在荧光绿上对比度 1.4:1，等于没有字。
+   */
+  --cta-bg: var(--brand-500);
+  --cta-fg: var(--brand-fg);
+  --cta-hover: #AAD92B;
+
+  /* 中性色 */
+  --neutral-900: #0F1115;
+  --neutral-700: #4A4F5A;
+  --neutral-500: #8A8F99;
+  --neutral-300: #E6E8EC;
+  --neutral-100: #F7F8FA;
+  --neutral-0: #FFFFFF;
+
+  /* 语义色 */
+  --success: #22A06B;
+  --warning: #F5A524;
+  --error: #E5484D;
+  --info: #3B82F6;
+
+  /* 语义别名 */
+  --text-1: var(--neutral-900);
+  --text-2: var(--neutral-700);
+  --text-3: var(--neutral-500);
+  --border: var(--neutral-300);
+  --border-subtle: rgba(15, 17, 21, 0.07);
+  --page-bg: var(--neutral-100);
+  --surface-0: var(--neutral-0);
+  --surface-1: var(--neutral-100);
+  /* 抬升表面：弹层、下拉、选中行。深色下必须比 surface-0 更亮，否则浮不起来 */
+  --surface-elevated: var(--neutral-0);
+  --surface-glass: rgba(255, 255, 255, 0.62);
+  --surface-glass-border: rgba(255, 255, 255, 0.80);
+  /* 聚焦环走 600 那一档：荧光绿画在白底上只有 1.6:1，当描边等于没画 */
+  --focus-ring: var(--brand-600);
+
+  /*
+   * 浮动外壳这一层。
+   *
+   * `--canvas` 是外壳之外那一圈留白，`--shell-bg` 是外壳面板本身，`--surface-0`
+   * 是面板里的卡片——**三级从深到浅，卡片才浮得起来**。
+   * `--page-bg` 不参与这一套：它被九处当底色与遮罩用（工作台窗口内底、登录页、
+   * 吸顶遮罩…），改它的值会连带改掉那些地方。
+   */
+  --canvas: #E8EAEF;
+  --shell-bg: #FBFBFD;
+  /* 外壳那一圈描边。浅色下投影已经把它托起来了，描边只要一丝；深色下投影看不见，全靠它 */
+  --shell-border: rgba(15, 17, 21, 0.06);
+
+  /* 导航当前项：**反色药丸**。浅色下近黑底白字，深色下反过来 */
+  --nav-active-bg: #16181D;
+  --nav-active-fg: #FFFFFF;
+
+  /* 间距基数 4px */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* 圆角 */
+  --radius-control: 12px;
+  --radius-card: 20px;
+  --radius-popover: 20px;
+  --radius-inner: 10px;
+  --radius-tile: 14px;
+  --radius-window: 22px;
+  /* 侧栏那块浮动面板 */
+  --radius-panel: 20px;
+  /* 最外层那个大外壳。比 window 再大一档，它包着一切 */
+  --radius-shell: 28px;
+  --radius-pill: 999px;
+
+  /* 阴影三级 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .06);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, .10);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, .14);
+  /*
+   * 外壳的投影。**只能用 box-shadow，不能用 filter。**
+   * 命令面板是 `fixed inset-0` 且没走 Portal，DOM 上就在外壳内部；
+   * 外壳一旦有 transform/filter/backdrop-filter，就会给它造出包含块，
+   * 那个全屏面板当场被框进外壳里。
+   */
+  --shadow-shell: 0 24px 64px rgba(15, 17, 21, .12), 0 2px 8px rgba(15, 17, 21, .04);
+
+  /* 网格底纹：给内容区一层极淡的坐标感，不是装饰 */
+  --grid-line: rgba(15, 17, 21, 0.04);
+
+  /* 工作台背板：悬浮窗口之外的那一圈 */
+  --backdrop: #E7E8EC;
+
+  /*
+   * 弹层背后的遮罩。**它跟 --backdrop 不是一回事**：那个是画布底色，这个是压在
+   * 内容之上的半透明黑。深色下必须更重——同一个 40% 压在近黑的应用上，弹窗和
+   * 背景分不开，看着像没弹出来。
+   */
+  --scrim: rgba(15, 17, 21, 0.40);
+
+  /* 字阶 */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-40: 40px;
+  --fs-56: 56px;
+
+  --lh-body: 1.6;
+  --lh-title: 1.2;
+
+  --font-sans: "PingFang SC", "HarmonyOS Sans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-latin: "Inter", "Geist", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  /*
+   * 品牌字体。字标（HTML PPT OS）与方块 logo 里的字都用它。
+   *
+   * **鸿蒙排在第一位**，后面垫一套同族的中文无衬线兜底——它不一定每台机器都装了，
+   * 没装时退到 PingFang / 雅黑，字重与字面宽度都接近，字标不会散架。
+   * 不外链字体文件：那会给首屏加一次跨域请求，而这里只影响一行标识。
+   */
+  --font-brand: "HarmonyOS Sans SC", "HarmonyOS Sans", "HarmonyOS_Sans_SC", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 动效：150-250ms ease-out，禁止弹跳 */
+  --motion-fast: 150ms;
+  --motion-base: 200ms;
+  --motion-page-flip: 250ms;
+  --motion-skeleton: 1600ms;
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  /*
+   * 深色下主色不变——荧光绿压在近黑上正是它最好看的地方。
+   * `--brand-600` 在这一档**反过来变亮**：它的语义是「当前背景下读得清的那一档」，
+   * 深色背景要的是更亮的字，不是更深的。
+   */
+  --brand-500: #BDEC3D;
+  --brand-600: #CBF43F;
+  --brand-100: #232B0A;
+  --brand-fg: #161D00;
+
+  --accent-500: #FF9447;
+  --accent-100: #3A2718;
+
+  /* 主行动按钮：深色下荧光绿是整片近黑里最亮的一块，一眼看到该点哪 */
+  --cta-bg: var(--brand-500);
+  --cta-fg: var(--brand-fg);
+  --cta-hover: #CBF43F;
+
+  --neutral-900: #F5F6F8;
+  --neutral-700: #B4B8C0;
+  --neutral-500: #7A7E88;
+  --neutral-300: #262629;
+  --neutral-100: #0A0A0C;
+  --neutral-0: #121214;
+
+  --text-1: var(--neutral-900);
+  --text-2: var(--neutral-700);
+  --text-3: var(--neutral-500);
+  --border: var(--neutral-300);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --page-bg: var(--neutral-100);
+  /*
+   * 卡片要比外壳亮。`--neutral-0` 在深色下是 #121214，比外壳还暗，卡片会陷进去，
+   * 所以这两档在这里显式给值，不走中性色阶。
+   */
+  --surface-0: #18181D;
+  --surface-1: #212127;
+  --surface-elevated: #26262C;
+  --surface-glass: rgba(255, 255, 255, 0.04);
+  --surface-glass-border: rgba(255, 255, 255, 0.08);
+  /* 聚焦环走 600 那一档：荧光绿画在白底上只有 1.6:1，当描边等于没画 */
+  --focus-ring: var(--brand-600);
+
+  /*
+   * 深色下三级反过来：画布最深，外壳次之，卡片最亮。
+   * **三档要拉得开**——差得太近，外壳就读不出「浮在画布上」，看着只是一整块黑。
+   */
+  --canvas: #050507;
+  --shell-bg: #101014;
+  /* 深色下投影几乎看不见，外壳的边界全靠这一圈描边 */
+  --shell-border: #26262C;
+
+  /* 反色药丸：深色下是浅底深字，与浅色模式同一个逻辑 */
+  --nav-active-bg: #F5F5F7;
+  --nav-active-fg: #0A0A0C;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .30);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, .45);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, .60);
+  /* 深色下投影本来就看不见，靠描边分层；留一点点让外壳的边缘不发虚 */
+  --shadow-shell: 0 24px 64px rgba(0, 0, 0, .55);
+
+  --grid-line: rgba(255, 255, 255, 0.035);
+  --backdrop: #050506;
+  /* 深色下遮罩要压得更重，否则弹窗与背景分不开 */
+  --scrim: rgba(0, 0, 0, 0.62);
+}
+
+/* 网格底纹工具类。内容区的背景网格 */
+.lumen-grid-bg {
+  background-image:
+    repeating-linear-gradient(0deg, var(--grid-line) 0 1px, transparent 1px 44px),
+    repeating-linear-gradient(90deg, var(--grid-line) 0 1px, transparent 1px 44px);
+}
+
+/* 玻璃表面。叠在任意底色上，透出底下的内容 */
+.lumen-glass {
+  background: var(--surface-glass);
+  border: 1px solid var(--surface-glass-border);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* 尊重系统减弱动效偏好（PRD §3.7） */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+    --motion-page-flip: 0ms;
+    --motion-skeleton: 0ms;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--page-bg);
+  color: var(--text-1);
+  font-family: var(--font-sans);
+  font-size: var(--fs-14);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 数字用等宽对齐（PRD §3.4 排印质量） */
+.lumen-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 键盘可达：focus ring 主色 2px（PRD §3.6） */
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/*
+ * 复合控件（外框 + 内层 input，如 `NumberField` / `SearchField`）：聚焦指示由**外框**画。
+ *
+ * 不这么做的话同一个控件上会叠出两条高亮——外框变色那条边，加内层 input 的环。
+ * 而内层 input 又压不掉那条全局环：Tailwind 的 `outline-none` 在 `@layer utilities` 里，
+ * **无 layer 的规则在层叠里赢过任何 layer**（不分特异性），所以那个工具类在这里是死的。
+ * 只能在这边给一条同样无 layer、但特异性更高的规则。
+ *
+ * 特异性 0,2,0 对全局那条的 0,1,0，稳赢。
+ */
+.lumen-focus-on-wrapper:focus-visible {
+  outline: none;
+}

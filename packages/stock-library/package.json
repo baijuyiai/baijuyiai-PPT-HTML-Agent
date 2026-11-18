@@ -1,0 +1,23 @@
+{
+  "name": "@lumen/stock-library",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/node.ts",
+    "./analyze": "./src/analyze.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test \"src/**/*.test.ts\"",
+    "normalize-people": "node --import tsx scripts/normalize-people.ts"
+  },
+  "dependencies": {
+    "@lumen/ir-schema": "workspace:*",
+    "@lumen/style-engine": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

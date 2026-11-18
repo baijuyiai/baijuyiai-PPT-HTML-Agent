@@ -1,0 +1,38 @@
+node_modules/
+dist/
+.turbo/
+data/
+.env.local
+.env
+*.log
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+.vite/
+coverage/
+# 迁移前的整库备份（`scripts/` 里的搬迁脚本会留一份）。不是源码，别提交
+.bake-backup-*.db
+# 头脑风暴用的可视化草稿（浏览器里摆出来对比的那几版），不是源码
+.superpowers/
+# 一次性的实测脚本、探针与截图。它们跑在真实开发库上——会改库、会留一堆 png，
+# 属于当场用完就丢的东西，不是源码。放在仓库里是为了能直接 import 工作区的包，
+# 不是因为要发布它们
+apps/worker/scratch/
+
+# 误落的截图目录。scratch 里几个老脚本把截图路径写成了仓库相对路径
+# （如 apps/worker/scratch/x.png），而从 apps/worker 里跑就会落到 apps/worker/apps/…
+# 它不在 scratch 下面，不挡住的话会被 git add -A 顺手带进版本库
+apps/worker/apps/
+
+# 批量脚本的中间产物：模型原始输出、缓存、报告。它们是**可重算的**，
+# 而一份骨架带示例文案、体积又大，进了版本库只会让 diff 没法看。
+# 要留的是最终生成的那份骨架文件（packages/ir-schema/src/people-skeletons.ts）。
+scripts/.cache/
+
+# 设备渲染的中间产物：外壳图、贴好界面的对照图、联络表。
+# 同样是**可重算的**（跑一次 `scripts/render.ts` 就回来），而且每调一次模型都会变，
+# 进了版本库只会让 diff 变成一堆二进制。
+packages/device-models/scripts/.out/
+
+# 公开快照的产物目录。它不是源码，别提交
+.publish/

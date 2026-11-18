@@ -1,0 +1,41 @@
+{
+  "name": "lumen-deck",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.22.0",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "pnpm --filter @lumen/api dev",
+    "dev:web": "pnpm --filter @lumen/web dev",
+    "dev:admin": "pnpm --filter @lumen/admin dev",
+    "dev:worker": "pnpm --filter @lumen/worker dev",
+    "build": "node scripts/lint-emoji.mjs && pnpm -r typecheck && pnpm --filter @lumen/web build && pnpm --filter @lumen/admin build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "node --import tsx --test --test-reporter=spec \"packages/*/src/**/*.test.ts\" \"packages/*/src/**/*.test.tsx\" \"apps/*/src/**/*.test.ts\" \"apps/*/src/**/*.test.tsx\"",
+    "test:watch": "node --import tsx --test --watch \"packages/*/src/**/*.test.ts\" \"packages/*/src/**/*.test.tsx\" \"apps/*/src/**/*.test.ts\" \"apps/*/src/**/*.test.tsx\"",
+    "lint:emoji": "node scripts/lint-emoji.mjs",
+    "lint:design": "node scripts/lint-design.mjs",
+    "db:migrate": "pnpm --filter @lumen/api db:migrate",
+    "seed": "node --import tsx scripts/seed.mjs",
+    "admin:show": "node --import tsx scripts/admin.mjs show",
+    "admin:reset": "node --import tsx scripts/admin.mjs reset",
+    "smoke": "node --import tsx scripts/smoke.mjs",
+    "stock:add": "node --import tsx scripts/stock-add.mjs",
+    "stock:people": "node scripts/stock-fetch-people.mjs",
+    "style:export": "node scripts/style-export.mjs",
+    "style:import": "node --import tsx scripts/style-import.mjs",
+    "data:export": "node scripts/data-export.mjs",
+    "data:import": "node scripts/data-import.mjs",
+    "hooks:install": "node scripts/install-hooks.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

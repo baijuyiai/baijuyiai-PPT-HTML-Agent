@@ -1,0 +1,3077 @@
+[
+  {
+    "file": "abstract-1.jpg",
+    "kind": "abstract",
+    "author": "Noah Rosenfield",
+    "source": "https://unsplash.com/photos/Za0O5DovZBc",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#262626",
+      "#5F5F5F",
+      "#9A9A9A"
+    ],
+    "tags": [
+      "几何构成",
+      "黑白",
+      "结构",
+      "暗调"
+    ]
+  },
+  {
+    "file": "abstract-2.jpg",
+    "kind": "abstract",
+    "author": "davide ragusa",
+    "source": "https://unsplash.com/photos/slgtMF8EjYE",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#4B5E7B",
+      "#C0E1FE",
+      "#8CA4C8"
+    ],
+    "tags": [
+      "几何",
+      "混凝土",
+      "仰视",
+      "留白"
+    ]
+  },
+  {
+    "file": "abstract-3.jpg",
+    "kind": "abstract",
+    "author": "Len  dela Cruz",
+    "source": "https://unsplash.com/photos/ScEKf8u7y-c",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1C1C1D",
+      "#6A6D73",
+      "#BDBDC0"
+    ],
+    "tags": [
+      "螺旋",
+      "暗调",
+      "极简",
+      "负空间"
+    ]
+  },
+  {
+    "file": "abstract-4.jpg",
+    "kind": "abstract",
+    "author": "Colton  Brown",
+    "source": "https://unsplash.com/photos/aQoOdWdYpis",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#D4A98B",
+      "#FEE6C9",
+      "#ECC1A3"
+    ],
+    "tags": [
+      "沙丘",
+      "暖米色",
+      "阴影",
+      "材质特写"
+    ]
+  },
+  {
+    "file": "abstract-5.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "蓝紫",
+      "3D渲染",
+      "抽象扭带",
+      "浅色",
+      "封面主视觉"
+    ]
+  },
+  {
+    "file": "architecture-1.jpg",
+    "kind": "architecture",
+    "author": "Greg Shield",
+    "source": "https://unsplash.com/photos/JV4Ic7fSZbw",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#8C92AF",
+      "#D3D6E0",
+      "#38576F"
+    ],
+    "tags": [
+      "摩天楼",
+      "天空",
+      "留白",
+      "极简"
+    ]
+  },
+  {
+    "file": "architecture-2.jpg",
+    "kind": "architecture",
+    "author": "Christian Bardenhorst",
+    "source": "https://unsplash.com/photos/8lMhzUjD1Wk",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#ACD0C4",
+      "#7A735D",
+      "#3E362D"
+    ],
+    "tags": [
+      "混凝土",
+      "建筑",
+      "天空",
+      "极简"
+    ]
+  },
+  {
+    "file": "architecture-3.jpg",
+    "kind": "architecture",
+    "author": "Hartmut Tobies",
+    "source": "https://unsplash.com/photos/O9TEKuI1Icw",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#350E04",
+      "#93502F",
+      "#C8A568"
+    ],
+    "tags": [
+      "拱廊",
+      "暗调",
+      "暖光",
+      "纵深"
+    ]
+  },
+  {
+    "file": "architecture-4.jpg",
+    "kind": "architecture",
+    "author": "Drew Patrick Miller",
+    "source": "https://unsplash.com/photos/VLT62-JzddA",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#EAEAEA",
+      "#AEAEAE",
+      "#C9C9C9"
+    ],
+    "tags": [
+      "螺旋",
+      "天窗",
+      "白色",
+      "几何"
+    ]
+  },
+  {
+    "file": "architecture-5.jpg",
+    "kind": "architecture",
+    "author": "Chris Brignola",
+    "source": "https://unsplash.com/photos/n7n-nkadHRM",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#EFCEAB",
+      "#6B372F",
+      "#948480"
+    ],
+    "tags": [
+      "大桥",
+      "暖霞",
+      "天空",
+      "留白"
+    ]
+  },
+  {
+    "file": "nature-1.jpg",
+    "kind": "nature",
+    "author": "Taylor Leopold",
+    "source": "https://unsplash.com/photos/OHS0yA7OkrQ",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#D4C3B9",
+      "#605D5A",
+      "#A2938A"
+    ],
+    "tags": [
+      "海雾",
+      "极简",
+      "留白",
+      "灰调"
+    ]
+  },
+  {
+    "file": "nature-2.jpg",
+    "kind": "nature",
+    "author": "Tim de Groot",
+    "source": "https://unsplash.com/photos/yNGQ830uFB4",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#4B1D06",
+      "#82534B",
+      "#5D3D44"
+    ],
+    "tags": [
+      "沙丘",
+      "暮色",
+      "暗调",
+      "大地"
+    ]
+  },
+  {
+    "file": "nature-3.jpg",
+    "kind": "nature",
+    "author": "Julie Geiger",
+    "source": "https://unsplash.com/photos/dYshDcTI1Js",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0F2A2E",
+      "#C8A67E",
+      "#FAE5AA"
+    ],
+    "tags": [
+      "森林",
+      "逆光",
+      "暗调",
+      "剪影"
+    ]
+  },
+  {
+    "file": "nature-4.jpg",
+    "kind": "nature",
+    "author": "Daniel Genser",
+    "source": "https://unsplash.com/photos/PzPbh-faPgU",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#453519",
+      "#ACA27F",
+      "#E6E7D4"
+    ],
+    "tags": [
+      "丘陵",
+      "暖阳",
+      "天空",
+      "留白"
+    ]
+  },
+  {
+    "file": "nature-5.jpg",
+    "kind": "nature",
+    "author": "Tim de Groot",
+    "source": "https://unsplash.com/photos/M_eB1UjE0do",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#A36D38",
+      "#F9DFAE",
+      "#733E11"
+    ],
+    "tags": [
+      "原野",
+      "暖金",
+      "地平线",
+      "留白"
+    ]
+  },
+  {
+    "file": "city-1.jpg",
+    "kind": "city",
+    "author": "Alex Gindin",
+    "source": "https://unsplash.com/photos/ifpBOcQlhoY",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#61553A",
+      "#C3B087",
+      "#F5E8C1"
+    ],
+    "tags": [
+      "城市",
+      "雾",
+      "暖米色",
+      "留白"
+    ]
+  },
+  {
+    "file": "city-2.jpg",
+    "kind": "city",
+    "author": "Guillaume",
+    "source": "https://unsplash.com/photos/revxuIor0nY",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#041D27",
+      "#868677",
+      "#1B3540"
+    ],
+    "tags": [
+      "夜景",
+      "城市",
+      "灯火",
+      "暗调"
+    ]
+  },
+  {
+    "file": "city-3.jpg",
+    "kind": "city",
+    "author": "Anders Jildén",
+    "source": "https://unsplash.com/photos/nrLtvA05jk8",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#282148",
+      "#92767F",
+      "#664F63"
+    ],
+    "tags": [
+      "夜景",
+      "大桥",
+      "城市",
+      "暗调"
+    ]
+  },
+  {
+    "file": "city-4.jpg",
+    "kind": "city",
+    "author": "Wim Peters",
+    "source": "https://unsplash.com/photos/cyi4rNpSxBE",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#F6E9C7",
+      "#B49E6E",
+      "#695E49"
+    ],
+    "tags": [
+      "城市",
+      "水面",
+      "暖调",
+      "留白"
+    ]
+  },
+  {
+    "file": "texture-1.jpg",
+    "kind": "texture",
+    "author": "Christopher Sardegna",
+    "source": "https://unsplash.com/photos/iRyGmA_no2Q",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#C9B3A4",
+      "#271D35",
+      "#8B807A"
+    ],
+    "tags": [
+      "沙地",
+      "暖米色",
+      "阴影",
+      "材质特写"
+    ]
+  },
+  {
+    "file": "texture-2.jpg",
+    "kind": "texture",
+    "author": "Mark Asthoff",
+    "source": "https://unsplash.com/photos/Pk8t4cL2pkw",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#4E6C9C",
+      "#2A384E",
+      "#96A8AF"
+    ],
+    "tags": [
+      "海面",
+      "平静",
+      "蓝调",
+      "反光"
+    ]
+  },
+  {
+    "file": "texture-3.jpg",
+    "kind": "texture",
+    "author": "Lukas Schweizer",
+    "source": "https://unsplash.com/photos/9VWOr22LhVI",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#A4A67D",
+      "#374431",
+      "#737A54"
+    ],
+    "tags": [
+      "麦田",
+      "绿色",
+      "柔焦",
+      "线条"
+    ]
+  },
+  {
+    "file": "texture-4.jpg",
+    "kind": "texture",
+    "author": "delfi de la Rua",
+    "source": "https://unsplash.com/photos/xorjaMB8W70",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#ABC4A8",
+      "#687846",
+      "#88A068"
+    ],
+    "tags": [
+      "水草",
+      "绿色",
+      "水面",
+      "留白"
+    ]
+  },
+  {
+    "file": "tech-1.jpg",
+    "kind": "tech",
+    "author": "Juskteez Vu",
+    "source": "https://unsplash.com/photos/TIrXot28Znc",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#6F95C4",
+      "#104D83",
+      "#3A74A9"
+    ],
+    "tags": [
+      "星空",
+      "暗调",
+      "银河",
+      "微光"
+    ]
+  },
+  {
+    "file": "tech-2.jpg",
+    "kind": "tech",
+    "author": "ahmadreza sajadi",
+    "source": "https://unsplash.com/photos/55xd_uiUYEE",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#182334",
+      "#4F5869",
+      "#180E09"
+    ],
+    "tags": [
+      "星空",
+      "星轨",
+      "夜空",
+      "长曝"
+    ]
+  },
+  {
+    "file": "tech-3.jpg",
+    "kind": "tech",
+    "author": "Marcelo Quinan",
+    "source": "https://unsplash.com/photos/R3pUGn5YiTg",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#022E3A",
+      "#3B6B70",
+      "#01B06B"
+    ],
+    "tags": [
+      "极光",
+      "夜空",
+      "暗调",
+      "绿光"
+    ]
+  },
+  {
+    "file": "tech-4.jpg",
+    "kind": "tech",
+    "author": "Caleb George",
+    "source": "https://unsplash.com/photos/URmkfvtK3Qw",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#594C54",
+      "#212123",
+      "#BCA9A0"
+    ],
+    "tags": [
+      "车流",
+      "光轨",
+      "夜色",
+      "暗调"
+    ]
+  },
+  {
+    "file": "tech-5.jpg",
+    "kind": "tech",
+    "author": "Zwaddi",
+    "source": "https://unsplash.com/photos/YvYBOSiBJE8",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#F5E3C4",
+      "#45321D",
+      "#8C693D"
+    ],
+    "tags": [
+      "逆光",
+      "光斑",
+      "暖调",
+      "留白"
+    ]
+  },
+  {
+    "file": "object-airplane.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#EAEEF2",
+      "#EDF1F4",
+      "#E5EAED"
+    ],
+    "tags": [
+      "飞机",
+      "客机",
+      "航空",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-bulb.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#FEF3DB",
+      "#FCEDDB",
+      "#FDFDFC"
+    ],
+    "tags": [
+      "灯泡",
+      "灵感",
+      "创意",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-bullet-train.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#D5D5D5",
+      "#DADADB",
+      "#EAEBED"
+    ],
+    "tags": [
+      "动车",
+      "高铁",
+      "列车",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-container.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#C3352A",
+      "#D24235",
+      "#CC3A2C"
+    ],
+    "tags": [
+      "集装箱",
+      "物流",
+      "货运",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-drone.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#C2C2C4",
+      "#BBBBBD",
+      "#4D4D51"
+    ],
+    "tags": [
+      "无人机",
+      "航拍",
+      "科技",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-gears.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#8D8C8A",
+      "#A4A19D",
+      "#ACA9A5"
+    ],
+    "tags": [
+      "齿轮",
+      "机械",
+      "工业",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-lighthouse.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#E3E3E5",
+      "#DBDBDD",
+      "#D4D4D5"
+    ],
+    "tags": [
+      "灯塔",
+      "海洋",
+      "指引",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-robot.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#DBDADC",
+      "#D4D3D5",
+      "#E3E3E4"
+    ],
+    "tags": [
+      "机器人",
+      "智能",
+      "科技",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-satellite.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#232A3D",
+      "#242D42",
+      "#1C253A"
+    ],
+    "tags": [
+      "卫星",
+      "航天",
+      "太空",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-tower.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#4B84BC",
+      "#437DBA",
+      "#538CC3"
+    ],
+    "tags": [
+      "大厦",
+      "建筑",
+      "摩天楼",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-book.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#F3F3F1",
+      "#EAE9E5",
+      "#EDEDEA"
+    ],
+    "tags": [
+      "书本",
+      "阅读",
+      "知识",
+      "翻页",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-butterfly.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#130B0B",
+      "#1C1213",
+      "#221513"
+    ],
+    "tags": [
+      "蝴蝶",
+      "飞翔",
+      "昆虫",
+      "蜕变",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-character-3d.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#F3EDEA",
+      "#ECE6E2",
+      "#E9E2DD"
+    ],
+    "tags": [
+      "3D 小人",
+      "立体人物",
+      "打招呼",
+      "卡通",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-coffee-cup.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#ECECEC",
+      "#E4E4E3",
+      "#F3F3F3"
+    ],
+    "tags": [
+      "咖啡杯",
+      "咖啡",
+      "热饮",
+      "休息",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-dry-leaf.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#DC9C3C",
+      "#E3A443",
+      "#E4AB4B"
+    ],
+    "tags": [
+      "枯树叶",
+      "落叶",
+      "秋天",
+      "自然",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-globe.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#035B94",
+      "#02548B",
+      "#024D83"
+    ],
+    "tags": [
+      "地球仪",
+      "全球",
+      "世界",
+      "视野",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-hummingbird.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#E3DCDB",
+      "#DDD4D3",
+      "#DCD2CD"
+    ],
+    "tags": [
+      "蜂鸟",
+      "飞鸟",
+      "悬停",
+      "灵动",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-key.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#735434",
+      "#6C5333",
+      "#7B5B3B"
+    ],
+    "tags": [
+      "钥匙",
+      "开启",
+      "关键",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-leaf.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#437402",
+      "#4A7D03",
+      "#528403"
+    ],
+    "tags": [
+      "绿叶",
+      "叶子",
+      "植物",
+      "自然",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-paper-plane.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#EAEBEE",
+      "#EDEDF1",
+      "#D1D2D5"
+    ],
+    "tags": [
+      "纸飞机",
+      "起飞",
+      "轻快",
+      "目标",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-trophy.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#1C1305",
+      "#FEF3BB",
+      "#E4C36C"
+    ],
+    "tags": [
+      "奖杯",
+      "荣誉",
+      "成就",
+      "第一",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-building-night.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#3B4B5C",
+      "#3A4E63",
+      "#435364"
+    ],
+    "tags": [
+      "夜景高楼",
+      "摩天楼",
+      "夜景",
+      "灯光",
+      "城市",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-chip.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#4B4A4D",
+      "#525255",
+      "#4E4E51"
+    ],
+    "tags": [
+      "芯片",
+      "计算",
+      "半导体",
+      "科技",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-compass.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#E1CEAB",
+      "#E4D2B3",
+      "#DDC9A5"
+    ],
+    "tags": [
+      "指南针",
+      "方向",
+      "导航",
+      "探索",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-cube-stack.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#E36564",
+      "#E99564",
+      "#ECC166"
+    ],
+    "tags": [
+      "堆叠立方体",
+      "立方体",
+      "阶梯",
+      "增长",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-cube.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#35528C",
+      "#335393",
+      "#3B5B9B"
+    ],
+    "tags": [
+      "发光立方体",
+      "立方体",
+      "几何",
+      "科技",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-helix.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#FCFDFE",
+      "#B3B6BB",
+      "#C4CBD4"
+    ],
+    "tags": [
+      "螺旋结构",
+      "螺旋",
+      "上升",
+      "科技",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-network.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#DCFAFE",
+      "#E3FBFE",
+      "#BBF3FD"
+    ],
+    "tags": [
+      "网络节点",
+      "网络",
+      "连接",
+      "数据",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-pyramid.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#A47325",
+      "#AB7B2B",
+      "#9D6C22"
+    ],
+    "tags": [
+      "金字塔",
+      "阶梯",
+      "层级",
+      "结构",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-robot-arm.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#DB7D33",
+      "#DA7A2C",
+      "#D57B34"
+    ],
+    "tags": [
+      "机械臂",
+      "工业",
+      "自动化",
+      "制造",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-robot-dog.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#9C9C9C",
+      "#A3A3A4",
+      "#B2B3B4"
+    ],
+    "tags": [
+      "机器狗",
+      "四足",
+      "机器人",
+      "智能",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-skyscraper-low-angle.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#445D73",
+      "#4B6274",
+      "#4B657A"
+    ],
+    "tags": [
+      "仰视摩天楼",
+      "摩天楼",
+      "仰拍",
+      "城市",
+      "高度",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-sphere.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#ACACAB",
+      "#B4B3B3",
+      "#BCBCBB"
+    ],
+    "tags": [
+      "金属球体",
+      "球体",
+      "几何",
+      "材质",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-telescope.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#EDECEC",
+      "#242422",
+      "#F3F3F2"
+    ],
+    "tags": [
+      "望远镜",
+      "远望",
+      "视野",
+      "探索",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "object-tower-glass.png",
+    "kind": "object",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "transparent": true,
+    "palette": [
+      "#9BBBDC",
+      "#93B5DA",
+      "#B4C2D4"
+    ],
+    "tags": [
+      "玻璃写字楼",
+      "写字楼",
+      "幕墙",
+      "城市",
+      "商务",
+      "透明底",
+      "AI 生成"
+    ]
+  },
+  {
+    "file": "street-fashion-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#DBBA85",
+      "#DDBC89",
+      "#A47945"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "人物"
+    ]
+  },
+  {
+    "file": "street-fashion-04.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#BCBDA2",
+      "#141403",
+      "#1D1A0A"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "男性"
+    ]
+  },
+  {
+    "file": "street-fashion-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#F9F9F9",
+      "#040404",
+      "#131413"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "女性"
+    ]
+  },
+  {
+    "file": "street-fashion-05.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#6B6B64",
+      "#6B6C6B",
+      "#646564"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "女性"
+    ]
+  },
+  {
+    "file": "street-fashion-08.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#040404",
+      "#0B0C0B",
+      "#131413"
+    ],
+    "tags": [
+      "街头",
+      "男性",
+      "日常"
+    ]
+  },
+  {
+    "file": "street-fashion-07.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#192325",
+      "#1C252A",
+      "#151E22"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "女性"
+    ]
+  },
+  {
+    "file": "street-fashion-06.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FCFDFC",
+      "#E2B354",
+      "#DCAC4C"
+    ],
+    "tags": [
+      "街头",
+      "潮流",
+      "男性"
+    ]
+  },
+  {
+    "file": "street-fashion-09.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#EDEBEA",
+      "#145CA3",
+      "#E5E3E3"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "女性"
+    ]
+  },
+  {
+    "file": "street-fashion-12.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0B0B0B",
+      "#12130C",
+      "#0A0A06"
+    ],
+    "tags": [
+      "街头",
+      "人物",
+      "日常"
+    ]
+  },
+  {
+    "file": "street-fashion-11.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FCFCFC",
+      "#5C6C72",
+      "#55646A"
+    ],
+    "tags": [
+      "街头",
+      "时尚",
+      "女性"
+    ]
+  },
+  {
+    "file": "street-fashion-10.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/street-style",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0C1413",
+      "#BDB5BA",
+      "#050B0B"
+    ],
+    "tags": [
+      "街头",
+      "男性",
+      "潮流"
+    ]
+  },
+  {
+    "file": "sport-run-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1B211C",
+      "#A4A4B3",
+      "#9C9CAC"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "户外"
+    ]
+  },
+  {
+    "file": "sport-run-03.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#2D1A1A",
+      "#C4CCB3",
+      "#CACDB3"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "城市"
+    ]
+  },
+  {
+    "file": "sport-run-07.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FDFEFE",
+      "#EAEDEC",
+      "#ADAAA4"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "女性"
+    ]
+  },
+  {
+    "file": "sport-run-08.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FAFBF5",
+      "#EBE3D3",
+      "#E5DDCB"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "海岸"
+    ]
+  },
+  {
+    "file": "sport-run-06.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0A0B04",
+      "#050601",
+      "#070803"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "逆光"
+    ]
+  },
+  {
+    "file": "sport-run-05.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#CCD4E4",
+      "#D3C4B4",
+      "#A4B3D3"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "群体"
+    ]
+  },
+  {
+    "file": "sport-run-10.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FAFCFA",
+      "#ECF5EC",
+      "#F5F9F4"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "黄金时刻"
+    ]
+  },
+  {
+    "file": "sport-run-12.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/running-outdoors",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#B3BDBD",
+      "#EAEBE4",
+      "#BBC4C3"
+    ],
+    "tags": [
+      "运动",
+      "跑步",
+      "动感"
+    ]
+  },
+  {
+    "file": "life-coffee-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FDFDFD",
+      "#433532",
+      "#DBD4CB"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "桌面"
+    ]
+  },
+  {
+    "file": "life-coffee-03.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#DDE4E6",
+      "#E0E6E8",
+      "#0B120C"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "手部"
+    ]
+  },
+  {
+    "file": "life-coffee-04.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0C1A0C",
+      "#724C34",
+      "#6C4A33"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "静物"
+    ]
+  },
+  {
+    "file": "life-coffee-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#E4EAEC",
+      "#DCE2E4",
+      "#6C431C"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "静物"
+    ]
+  },
+  {
+    "file": "life-coffee-07.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1B1C1C",
+      "#222423",
+      "#1C2324"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "书"
+    ]
+  },
+  {
+    "file": "life-coffee-08.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#14140B",
+      "#1B160B",
+      "#1B1C12"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "桌面"
+    ]
+  },
+  {
+    "file": "life-coffee-06.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0B0D0A",
+      "#14130C",
+      "#1B150D"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "笔记本"
+    ]
+  },
+  {
+    "file": "life-coffee-05.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0C1304",
+      "#443224",
+      "#342A1C"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "俯拍"
+    ]
+  },
+  {
+    "file": "life-coffee-12.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0B0E0A",
+      "#0D110C",
+      "#12130D"
+    ],
+    "tags": [
+      "生活",
+      "咖啡",
+      "手部"
+    ]
+  },
+  {
+    "file": "life-coffee-09.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coffee-lifestyle",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#010000",
+      "#0B0200",
+      "#130201"
+    ],
+    "tags": [
+      "生活",
+      "饮品",
+      "静物"
+    ]
+  },
+  {
+    "file": "portrait-04.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#030303",
+      "#F4F4F4",
+      "#131313"
+    ],
+    "tags": [
+      "人像",
+      "男性",
+      "简约"
+    ]
+  },
+  {
+    "file": "portrait-03.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1A140D",
+      "#221C15",
+      "#1E1912"
+    ],
+    "tags": [
+      "人像",
+      "男性",
+      "黑白"
+    ]
+  },
+  {
+    "file": "portrait-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0D1313",
+      "#141A1A",
+      "#111616"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "微笑"
+    ]
+  },
+  {
+    "file": "portrait-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1A2529",
+      "#162126",
+      "#1A2426"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "影棚"
+    ]
+  },
+  {
+    "file": "portrait-07.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0B0B0B",
+      "#050505",
+      "#2C2C2C"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "黑白"
+    ]
+  },
+  {
+    "file": "portrait-06.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#242424",
+      "#1C1C1C",
+      "#2B2B2B"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "侧脸"
+    ]
+  },
+  {
+    "file": "portrait-08.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#14120D",
+      "#0B0A06",
+      "#1D1A14"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "特写"
+    ]
+  },
+  {
+    "file": "portrait-05.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#020C0B",
+      "#000504",
+      "#03120D"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "自然光"
+    ]
+  },
+  {
+    "file": "portrait-11.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0A0A0A",
+      "#070707",
+      "#C3C3C3"
+    ],
+    "tags": [
+      "人像",
+      "男性",
+      "深色"
+    ]
+  },
+  {
+    "file": "portrait-10.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#131313",
+      "#232323",
+      "#1C1C1C"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "暖调"
+    ]
+  },
+  {
+    "file": "portrait-12.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1B1413",
+      "#140C0A",
+      "#1E1B19"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "自然光"
+    ]
+  },
+  {
+    "file": "portrait-09.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#1D1D1D",
+      "#212121",
+      "#141414"
+    ],
+    "tags": [
+      "人像",
+      "男性",
+      "街拍"
+    ]
+  },
+  {
+    "file": "portrait-14.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#44636C",
+      "#010403",
+      "#3C5B64"
+    ],
+    "tags": [
+      "人像",
+      "男性",
+      "剪影"
+    ]
+  },
+  {
+    "file": "portrait-13.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/portrait-people",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#010B0B",
+      "#031313",
+      "#010505"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "特写"
+    ]
+  },
+  {
+    "file": "people-bright-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/bright-portrait-white-background",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#CAD6D4",
+      "#CFDAD9",
+      "#D1DCDA"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "明亮"
+    ]
+  },
+  {
+    "file": "life-home-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/daily-life-home",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#000000",
+      "#DADBDC",
+      "#E1E2E5"
+    ],
+    "tags": [
+      "生活",
+      "居家",
+      "宠物"
+    ]
+  },
+  {
+    "file": "people-bright-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/bright-portrait-white-background",
+    "license": "Unsplash License",
+    "tone": "dark",
+    "palette": [
+      "#0D1413",
+      "#141C1A",
+      "#1B231C"
+    ],
+    "tags": [
+      "人像",
+      "女性",
+      "户外"
+    ]
+  },
+  {
+    "file": "life-kitchen-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/daily-life-home",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#D3CAA5",
+      "#C2AC73",
+      "#FCFEFD"
+    ],
+    "tags": [
+      "生活",
+      "厨房",
+      "人物"
+    ]
+  },
+  {
+    "file": "life-interior-01.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/daily-life-home",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#F5F5F5",
+      "#E4E4E3",
+      "#D3D3CC"
+    ],
+    "tags": [
+      "生活",
+      "室内",
+      "客厅"
+    ]
+  },
+  {
+    "file": "life-kitchen-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/daily-life-home",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#FEFFFE",
+      "#F3F2FB",
+      "#FCFDF3"
+    ],
+    "tags": [
+      "生活",
+      "厨房",
+      "烹饪"
+    ]
+  },
+  {
+    "file": "life-interior-02.jpg",
+    "kind": "lifestyle",
+    "author": "Unsplash",
+    "source": "https://unsplash.com/s/photos/daily-life-home",
+    "license": "Unsplash License",
+    "tone": "light",
+    "palette": [
+      "#F3DCC3",
+      "#C5AA8C",
+      "#EDD4BB"
+    ],
+    "tags": [
+      "生活",
+      "室内",
+      "客厅"
+    ]
+  },
+  {
+    "file": "people-half-01.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/36742542/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#747A7C",
+      "#7B8285",
+      "#6C7274"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "黑白",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-02.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/22601721/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#1A1D22",
+      "#5D6A73",
+      "#64717C"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "白底"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-03.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/30012625/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#0D0304",
+      "#140B0B",
+      "#1B1413"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "暗底"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-04.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/21938970/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#141B24",
+      "#13161B",
+      "#1A232C"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "针织",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-05.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/3973748/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#0C0203",
+      "#030101",
+      "#150609"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "卷发",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-06.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/36646353/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#1B1B1B",
+      "#212322",
+      "#161616"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "黑色高领",
+      "暗底",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-07.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/36457861/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#A3A49C",
+      "#ABADA4",
+      "#030404"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "青底"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-08.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/6073973/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#020202",
+      "#0A0503",
+      "#0A0B0B"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "黑衣",
+      "暗底",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-09.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/36807010/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#040405",
+      "#050609",
+      "#142C43"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "男",
+      "西装",
+      "暗底"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-10.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/30809038/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#141313",
+      "#0C0B0B",
+      "#1C1B1B"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "白衬衫"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-11.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/15416842/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#131214",
+      "#0B0C0E",
+      "#1B1413"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "牛仔",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-12.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/10483258/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#060606",
+      "#090909",
+      "#0A0605"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "全黑"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-13.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/14218083/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#2D2B3B",
+      "#262432",
+      "#343244"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "绿色",
+      "白底",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-14.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/16559840/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#020103",
+      "#03040B",
+      "#0B0403"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "牛仔外套",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-15.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/40225219/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#030303",
+      "#0B0B0B",
+      "#1B1B1B"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "黑白"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-half-16.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/39849785/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#030303",
+      "#0B0B0B",
+      "#131313"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "半身",
+      "女",
+      "黑白",
+      "暗底",
+      "浅色衣着"
+    ],
+    "framing": "half"
+  },
+  {
+    "file": "people-head-01.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/12562546/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#020202",
+      "#0B0B0B",
+      "#131313"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "单色"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-02.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/28736497/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#646463",
+      "#6C6C6B",
+      "#737473"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "男",
+      "黑白"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-03.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/33680688/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#010101",
+      "#0C0B0B",
+      "#141313"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "黑白"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-04.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/16961539/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#0C0402",
+      "#2C140A",
+      "#34190D"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "特写"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-05.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/14304912/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#010203",
+      "#DECBC5",
+      "#030B0C"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "长袖衬衫"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-06.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/32222061/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#252329",
+      "#141314",
+      "#1A1A1C"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "黄色头巾"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-07.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/39974547/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#555352",
+      "#4D4B4A",
+      "#5A5553"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "男",
+      "正装"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-08.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/29852852/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#1A151D",
+      "#15121A",
+      "#110E14"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "影棚"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-09.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/38386658/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#C44D39",
+      "#24120D",
+      "#CB523D"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "棕色长发"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-10.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/13660183/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#020202",
+      "#0C0C0C",
+      "#121212"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "黑色造型"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-11.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/33680693/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#030202",
+      "#0C0B0B",
+      "#141312"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "亮片",
+      "黑白"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-12.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/20218971/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#020201",
+      "#0D0C0A",
+      "#0A0906"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "金发西装"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-13.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/11989029/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#010115",
+      "#02041A",
+      "#433542"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "眼镜"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-14.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/16746328/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#1A1B1D",
+      "#141519",
+      "#232423"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "影棚"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-15.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/16152597/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#030403",
+      "#0A0B0B",
+      "#130906"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "女",
+      "微笑"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "people-head-16.png",
+    "kind": "people",
+    "author": "Pexels",
+    "source": "https://www.pexels.com/photo/36687799/",
+    "license": "Pexels License（可商用、免费、无需署名；**不保证肖像权 / model release**）",
+    "tone": "dark",
+    "transparent": true,
+    "palette": [
+      "#050A0D",
+      "#070C11",
+      "#080E13"
+    ],
+    "tags": [
+      "人物",
+      "透明底",
+      "头肩",
+      "男",
+      "影棚"
+    ],
+    "framing": "head"
+  },
+  {
+    "file": "abstract-6.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "斜向扭带",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-7.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "深色折面",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-8.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "柔和曲面",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-9.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "暗部偏左",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-10.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "蓝紫",
+      "3D渲染",
+      "环形丝带",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-11.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "大环",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-12.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "靛紫",
+      "3D渲染",
+      "层叠折面",
+      "浅色"
+    ]
+  },
+  {
+    "file": "abstract-13.jpg",
+    "kind": "abstract",
+    "author": "lumen-deck",
+    "source": "https://github.com/baijuyiai/lumen-deck",
+    "license": "本仓库自有（AI 生成，可自由使用）",
+    "tone": "light",
+    "palette": [
+      "#4B2FD0",
+      "#7C44C9",
+      "#B588FC"
+    ],
+    "tags": [
+      "玻璃",
+      "蓝紫",
+      "3D渲染",
+      "通透",
+      "浅色"
+    ]
+  }
+]

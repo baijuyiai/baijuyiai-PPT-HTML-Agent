@@ -1,0 +1,125 @@
+/*
+ * 幻灯片动效。只做 150–250ms 位移/淡入，禁止弹跳旋转炫技（PRD §3.7 / §5.10）。
+ * 动效名与风格包 motionWhitelist 一一对应。
+ */
+
+@keyframes lumen-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes lumen-fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lumen-fade-down {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lumen-slide-left {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes lumen-slide-right {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes lumen-scale-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* 讲解光标的段内呼吸 */
+@keyframes lumen-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.72; }
+}
+
+/*
+ * 退出。翻页是**交叉过渡**：新页进来的同时旧页也要动，否则旧页是「啪」地消失。
+ *
+ * 方向一律是**顺着进入方向继续走**：`lumen-slide-left` 从右边滑进来（translateX(24px) → 0），
+ * 对应的 `lumen-slide-left-out` 就继续往左走（0 → translateX(-24px)）。
+ * 反向的话两层朝同一个方向挤，看着像撞在一起。
+ */
+@keyframes lumen-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+@keyframes lumen-fade-up-out {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-12px); }
+}
+
+@keyframes lumen-fade-down-out {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(12px); }
+}
+
+@keyframes lumen-slide-left-out {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-24px); }
+}
+
+@keyframes lumen-slide-right-out {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(24px); }
+}
+
+@keyframes lumen-scale-out {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0; transform: scale(1.04); }
+}
+
+/* 元素逐块进场：单个元素的关键帧。
+   方向不写在元素上，写在容器上（`data-lumen-stagger="up|left|right|scale"`），
+   靠自定义属性继承传给所有后代——自定义属性在 keyframe 内部是按元素解析的。
+   于是四种方向只要四条一行的规则加这一个关键帧。
+
+   延迟用 min() 夹住：一页三十个元素挨个进要两秒，夹住之后第九个往后一起进。
+
+   **这套规则与 `packages/ir-schema/src/html-doc.ts` 里注入 iframe 的那份必须一致**
+   （新链路的内容跑在 iframe 里，加载不到本文件）。`stagger-css.test.ts` 读本文件原文
+   比对关键帧名与夹取上限，防两份漂开。
+
+   进场只动 `translate`/`scale` 独立属性，且 `to` 留空——理由写在 `html-doc.ts` 的
+   `STAGGER_CSS` 上：动画的 `transform` 会整个替换掉元素自己的 `transform`
+   （模型写的页面常拿它居中），而关键帧里没写的属性会取元素自身的值，
+   于是「从 0 淡入、从偏移落回它本来的样子」，水印的 `opacity: .05` 也保得住。
+   三处都不能「顺手简化」回去。 */
+@keyframes lumen-stagger-in {
+  from { opacity: 0; translate: var(--stagger-x, 0px) var(--stagger-y, 12px); scale: var(--stagger-s, 1); }
+  to   { }
+}
+
+[data-stagger-item] {
+  animation: lumen-stagger-in 240ms var(--ease-out, cubic-bezier(0.2,0,0,1)) both;
+  animation-delay: calc(min(var(--stagger-i, 0), 8) * 70ms);
+}
+
+[data-lumen-stagger="up"]    { --stagger-x: 0px;   --stagger-y: 12px; }
+[data-lumen-stagger="left"]  { --stagger-x: 18px;  --stagger-y: 0px; }
+[data-lumen-stagger="right"] { --stagger-x: -18px; --stagger-y: 0px; }
+[data-lumen-stagger="scale"] { --stagger-x: 0px;   --stagger-y: 0px; --stagger-s: 0.96; }
+
+/* 尊重系统减弱动效偏好。翻页层与装饰层都要收进来 */
+@media (prefers-reduced-motion: reduce) {
+  [data-slide-root],
+  [data-cursor],
+  [data-flip-layer],
+  [data-decoration],
+  [data-stagger-item] {
+    animation: none !important;
+    transition: none !important;
+  }
+  /* 退场层要**藏掉**而不是「不动地叠在上面」：动画一停，它会以完全不透明的样子
+     盖住新页整整 250ms，看上去像翻页卡住了。藏掉就是硬切，那才是减弱动效该有的样子 */
+  [data-flip-layer="out"] {
+    display: none !important;
+  }
+}

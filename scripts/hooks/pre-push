@@ -1,0 +1,39 @@
+#!/bin/sh
+# 推送前把数据导出一次，确认没有「改了但没同步」的东西。
+#
+# 为什么需要它：风格库和项目数据的**真相在库里**（data/lumen.db），仓库里那份是导出的
+# 产物。忘了导出就直接推，远端拿到的还是旧数据——而这件事不会报错，只会安静地不同步，
+# 等你在另一台机器上拉下来才发现。
+#
+# 脚本本体放在 scripts/hooks/ 而不是 .git/hooks/：前者进版本管理，换台机器跑一次
+# `pnpm hooks:install` 就装上了，不会随 .git 目录一起丢。
+
+cd "$(git rev-parse --show-toplevel)" || exit 0
+
+# 导出会直接改写 data-sync/ 和风格资产文件。跑不成只警告、不拦人——
+# 库是空的、依赖没装好这类环境问题，不该阻止你把代码推上去
+if ! pnpm style:export > /dev/null 2>&1; then
+  echo "提示：style:export 没跑成，这一次不检查风格库有没有同步。" >&2
+fi
+if ! pnpm data:export > /dev/null 2>&1; then
+  echo "提示：data:export 没跑成，这一次不检查项目数据有没有同步。" >&2
+fi
+
+changed=$(git status --porcelain -- data-sync packages/style-library/assets)
+
+if [ -n "$changed" ]; then
+  {
+    echo ""
+    echo "推送被拦下了：库里的数据和仓库里那份对不上。"
+    echo ""
+    echo "$changed"
+    echo ""
+    echo "上面这些是刚从库里导出来的新内容。提交它们再推："
+    echo "    git add data-sync packages/style-library/assets"
+    echo "    git commit -m \"chore(sync): 同步数据\""
+    echo ""
+  } >&2
+  exit 1
+fi
+
+exit 0

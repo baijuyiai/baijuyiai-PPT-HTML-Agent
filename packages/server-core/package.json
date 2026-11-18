@@ -1,0 +1,35 @@
+{
+  "name": "@lumen/server-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@lumen/content-engine": "workspace:*",
+    "@lumen/ir-schema": "workspace:*",
+    "@lumen/provider-gateway": "workspace:*",
+    "@lumen/render-engine": "workspace:*",
+    "@lumen/storage": "workspace:*",
+    "@lumen/style-engine": "workspace:*",
+    "@lumen/style-library": "workspace:*",
+    "@lumen/stock-library": "workspace:*",
+    "@lumen/task-client": "workspace:*",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.0.1",
+    "jose": "^5.9.6",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  }
+}

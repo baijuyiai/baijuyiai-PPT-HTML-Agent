@@ -1,0 +1,35 @@
+/*
+ * @lumen/ui 的补充样式。
+ * 大部分视觉由 Tailwind 工具类承担；这里放工具类表达不了的动画与过渡。
+ */
+
+@keyframes lumen-skeleton {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.45; }
+}
+
+/* 界面过渡 150–200ms ease-out，不弹跳（PRD §3.7） */
+@keyframes lumen-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes lumen-fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lumen-scale-in {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.97); }
+  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

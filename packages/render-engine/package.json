@@ -1,0 +1,23 @@
+{
+  "name": "@lumen/render-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@lumen/content-engine": "workspace:*",
+    "@lumen/design-system": "workspace:*",
+    "@lumen/ir-schema": "workspace:*",
+    "@lumen/motion": "workspace:*",
+    "@lumen/style-engine": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

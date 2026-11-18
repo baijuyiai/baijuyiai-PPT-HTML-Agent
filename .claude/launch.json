@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lumen-dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/dev.mjs"],
+      "port": 5273
+    },
+    {
+      "name": "lumen-web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@lumen/web", "run", "dev"],
+      "port": 5273
+    },
+    {
+      "name": "lumen-api",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@lumen/api", "run", "dev"],
+      "port": 8787
+    },
+    {
+      "name": "lumen-admin",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@lumen/admin", "run", "dev"],
+      "port": 5274
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+@import '@lumen/design-system/themes.css';
+@import '@lumen/ui/styles.css';
+@import '@lumen/slides/styles.css';
+
+/* Tailwind v4 需要显式声明要扫描的源码目录，工作区里的包不在默认扫描范围内 */
+@source '../../../packages/ui/src';
+@source '../../../packages/slides/src';
+@source './';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* 画布区域允许内部滚动，但不显示滚动条（保持克制） */
+.lumen-scroll {
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neutral-300) transparent;
+}
+
+.lumen-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.lumen-scroll::-webkit-scrollbar-thumb {
+  background: var(--neutral-300);
+  border-radius: 4px;
+}
+
+.lumen-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/*
+ * 图位面板「位置与裁切」那几条滑杆。
+ *
+ * 原生 `input[type=range]` 的外观由浏览器画，`accent-color` 只能改颜色，
+ * 改不了轨道高度、圆角、滑块大小——那三样都得 `appearance:none` 自己画一遍。
+ *
+ * 颜色走 `--brand-500`：设计系统里那一档的定位就是「填充」（进度条、指示条），
+ * 面积够大所以亮不刺眼；轨道底走 `--neutral-300`，深浅两套主题各自成立。
+ */
+.lumen-range {
+  appearance: none;
+  -webkit-appearance: none;
+  /* 宿主留够高度，否则 12px 的滑块会被 6px 的轨道裁掉 */
+  height: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*
+ * 已选部分：Chrome 没有 `::-moz-range-progress` 那样的伪元素，
+ * 只能在轨道背景上画一段渐变。分界点由宿主元素上的 `--range-pct` 传进来。
+ */
+.lumen-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    to right,
+    var(--brand-500) 0%,
+    var(--brand-500) var(--range-pct, 0%),
+    var(--neutral-300) var(--range-pct, 0%),
+    var(--neutral-300) 100%
+  );
+}
+
+.lumen-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  /* (轨道 6 − 滑块 12) / 2，让它骑在轨道中线上而不是坐上去 */
+  margin-top: -3px;
+  border-radius: 50%;
+  background: var(--brand-500);
+  /* 一圈底色描边，滑块压在绿色轨道上时边界才分得开 */
+  border: 2px solid var(--surface-0);
+}
+
+/* Firefox 两样都有现成的伪元素，不用渐变 */
+.lumen-range::-moz-range-track {
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--neutral-300);
+}
+
+.lumen-range::-moz-range-progress {
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--brand-500);
+}
+
+.lumen-range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-500);
+  border: 2px solid var(--surface-0);
+}

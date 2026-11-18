@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML PPT OS</title>
+    <meta name="description" content="从想法到成品的 HTML 演示生成、编辑、演示与讲解平台" />
+    <!--
+      **必须在任何样式之前跑，而且是同步的。**
+      默认深色，但用户可能选过浅色；等 React 挂载再落属性的话，浅色用户每次
+      打开都会先看到一帧深色再跳过去。这里在解析文档时就把属性定下来。
+      与 `useTheme()`（packages/ui/src/overlays.tsx）读的是同一个键，两边要一起改。
+    -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('lumen-theme');
+          document.documentElement.setAttribute('data-theme', saved === 'light' ? 'light' : 'dark');
+        } catch (e) {
+          /* 隐私模式下 localStorage 会抛，兜住即可——默认深色已经写在标签上 */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

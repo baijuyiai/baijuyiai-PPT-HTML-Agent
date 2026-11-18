@@ -1,0 +1,36 @@
+{
+  "name": "@lumen/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --exclude \"../../packages/stock-library/assets/**\" src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@lumen/charts": "workspace:*",
+    "@lumen/content-engine": "workspace:*",
+    "@lumen/ir-schema": "workspace:*",
+    "@lumen/provider-gateway": "workspace:*",
+    "@lumen/render-engine": "workspace:*",
+    "@lumen/server-core": "workspace:*",
+    "@lumen/slides": "workspace:*",
+    "@lumen/stock-library": "workspace:*",
+    "@lumen/storage": "workspace:*",
+    "@lumen/style-engine": "workspace:*",
+    "@lumen/task-client": "workspace:*",
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.49.1",
+    "pptxgenjs": "^3.12.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,13 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# pnpm 10+ 默认阻止依赖的 postinstall 脚本，这里显式放行本项目需要的。
+allowBuilds:
+  esbuild: true
+  playwright: true
+  playwright-core: true
+  ffmpeg-static: true
+  sharp: true
+  '@remotion/compositor-win32-x64-msvc': true
+  '@tailwindcss/oxide': true

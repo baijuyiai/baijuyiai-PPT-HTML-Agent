@@ -1,0 +1,24 @@
+{
+  "id": "lumen-deck",
+  "name": "HTML PPT OS",
+  "iconKey": "layers",
+  "version": "0.1.0",
+  "description": "DSH 应用市场 · HTML PPT OS：从想法到讲解一步到位的演示平台。以前要先把内容做成 PPT、再找人讲，现在给一段内容或一个想法、选一种风格，它逐页生成可翻页、可精修、可导出、可分享的演示稿，并配好讲稿与语音讲解。链路是「项目需求 → 大纲 → 教案 → 页面 HTML」四段，每段都能单独重跑；工作台是三栏编辑器，能改文案、换配图、在画布上直接拖图位、调框内裁切。本地自包含、零外部依赖，没配模型 Key 也能靠内置 Mock 网关把全链路跑通。首次运行先 pnpm install && pnpm seed。管理后台在同一进程里（5274），另有独立成库的版本见 lumen-admin。",
+  "category": "desktop",
+  "repo": "https://github.com/baijuyiai/lumen-deck",
+  "preview": "preview.png",
+  "sourceDir": ".",
+  "services": [
+    {
+      "id": "web",
+      "type": "fullstack",
+      "label": "HTML PPT OS",
+      "cmd": [
+        "pnpm",
+        "dev"
+      ],
+      "port": 5273,
+      "health": "http://127.0.0.1:5273/"
+    }
+  ]
+}
